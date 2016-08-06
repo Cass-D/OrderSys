@@ -1,0 +1,17 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="OrderSys">
+    <output-path>$PROJECT_DIR$/classes/artifacts/OrderSys</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="OrderSys/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="OrderSys" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="file-copy" path="$PROJECT_DIR$/WebRoot/META-INF/jstl-1.2.jar" />
+        </element>
+      </element>
+      <element id="dir-copy" path="$PROJECT_DIR$/WebRoot" />
+    </root>
+  </artifact>
+</component>
